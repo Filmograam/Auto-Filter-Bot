@@ -17,12 +17,12 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('🏷 Channel', url='https://telegram.dog/TrollJunction2/'),
+                        InlineKeyboardButton('🏷 Channel', url='https://telegram.dog/FilmograamChannel/'),
                         InlineKeyboardButton('Creator 🖥', url ='https://telegram.dog/MasterOfTG'),
                     ],
                     [
                         InlineKeyboardButton(
-                            "♻️ JOIN OUR GROUP ♻️", url="https://telegram.dog/TrollJunction")
+                            "♻️ JOIN OUR GROUP ♻️", url="https://telegram.dog/FilmograamGroup")
                     ]
                 ]
             ),
