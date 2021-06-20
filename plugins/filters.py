@@ -157,9 +157,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         elif query.data == "start_data":
             await query.answer()
             keyboard = InlineKeyboardMarkup([
-                [InlineKeyboardButton('🏷 Channel', url='https://telegram.dog/TrollJunction2/'),
+                [InlineKeyboardButton('🏷 Channel', url='https://telegram.dog/FilmograamChannel/'),
                  InlineKeyboardButton('Creator 🖥', url ='https://telegram.dog/MasterOfTG')],
-                [InlineKeyboardButton("♻️ JOIN OUR GROUP ♻️", url="https://telegram.dog/TrollJunction")]
+                [InlineKeyboardButton("♻️ JOIN OUR GROUP ♻️", url="https://telegram.dog/@FilmograamGroup")]
             ])
 
             await query.message.edit_text(
